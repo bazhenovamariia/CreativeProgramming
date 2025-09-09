@@ -4,6 +4,9 @@ user_input = input("Введіть будь-яке число: ")
 # Перетворюємо введене значення у ціле число
 number = int(user_input)
 
+#цілочисельне ділення в Python
+number = number // 2
+
 # Підносимо його до 4 степеня
 result = number ** 4
 
