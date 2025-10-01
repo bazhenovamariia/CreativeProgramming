@@ -1,9 +1,9 @@
-# Input x
-x = input()
-y = x[::-1]
+# Input text
+text = input()
+reversed_text = text[::-1]
 
-#check if x equals y
-if x == y:
+#check if text equals reversed_text
+if text == reversed_text:
     print("True")
 else:
     print("False")
