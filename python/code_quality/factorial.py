@@ -1,11 +1,11 @@
-def f(n):
+def factorial(n):
     if n < 2:
         return 1
     else:
-        return n * f(n - 1)
+        return n * factorial(n - 1)
 
-#Get a
-a = int(input())
+#Get number
+number = int(input())
 
-# print f
-print(f(a))
+# print factorial
+print(factorial(number))
